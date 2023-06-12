@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+  gap: 10px;
+  margin: 2%;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: aliceblue;
+}
+
+.card .name {
+  font-size: 15px;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
